@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: arial;
 }
 body {
+  background-color: #353935;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -11,46 +13,58 @@ body {
 }
 main {
   /*     margin:auto; */
-  border: 1px solid black;
+  border-radius: 10px;
+  /*   border: 5px solid black; */
   /*     padding:10px; */
   max-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  background-color: #5d3fd3;
 }
 #title {
   text-align: center;
   font-size: 30px;
 }
 .top-container {
+  color: white;
   padding: 20px;
-  border: 1px solid red;
+  /*   border: 1px solid red; */
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
 }
 #input-container {
-  width:25%;
+  border: none;
+  width: 30%;
+  /* max-width: fit-content; */
   text-align: center;
   margin: 40px auto 15px auto;
-  border: 2px solid green;
+  /*   border: 2px solid green; */
   border-radius: 5px;
-  padding: 15px 30px;
-  font-size: 40px;
+  padding: 10px;
+  font-size: 30px;
 }
 #convert-btn {
-  width: 104px;
+  background-color: #191970;
+  color: white;
+  width: 30%;
   border: none;
-  padding: 7px 10px;
+  padding: 10px;
   cursor: pointer;
   border-radius: 5px;
 }
+
 .bottom-container {
+  border-radius: 10px;
   padding: 20px;
   width: 100%;
-  border: 2px solid green;
+  background-color: #28282b;
+  color: white;
+  /*   border: 2px solid green; */
   /*   height: 100px; */
   display: flex;
   flex-direction: column;
@@ -58,23 +72,29 @@ main {
   justify-content: center;
 }
 .unit-container {
+  background-color: #36454f;
   width: 100%;
-  border: 1px solid orange;
+  /*   border: 1px solid orange; */
+  margin: 5px auto;
+  border-radius: 5px;
   /*   height: 50px; */
   padding: 10px;
 }
 .unit-type {
+  font-size: 20px;
   text-align: center;
 }
 .display-unit-container {
-  margin-top: 10px;
-/*   border: 2px solid blue; */
+  margin-top: 15px;
+  font-size: 15px;
+  /*   border: 2px solid blue; */
   /*   height:50px; */
   display: flex;
   justify-content: center;
 }
 .display-unit-container p {
-/*   padding: 2px; */
-  border: 1px solid red;
+  text-align: center;
+  padding: 0px 15px;
+  /*   border: 1px solid red; */
   margin: 0 5px;
 }

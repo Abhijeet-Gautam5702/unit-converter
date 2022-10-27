@@ -13,25 +13,61 @@
       <!--Top section (containing the display section) -->
       <div class="top-container">
         <h1 id="title"></h1>
-        <input id="input-container" type = "tel"></input>
+        <input id="input-container" type = "tel" value="0"></input>
         <button id="convert-btn">CONVERT</button>
       </div>
 
       <!--bottom section of the unit converter-->
       <div class="bottom-container">
+        <!--single unit container-->
         <div class="unit-container">
           <p class="unit-type">Length (Meter/Feet)</p>
           <div class="display-unit-container">
             <p class="metric-unit">
-              <span class="input-num">20</span> meter = 
-              <span class="converted-num">45.64</span> feet
+              <span class="input-num"></span> meter = 
+              <span class="converted-num"></span> feet
             </p>
             <p class="imperial-unit">
-              <span class="input-num">20</span> feet = 
-              <span class="converted-num">45.64</span> meter
+              <span class="input-num"></span> feet = 
+              <span class="converted-num"></span> meter
             </p>
           </div>
         </div>
+        <!--single unit container ends-->
+
+        <!--single unit container-->
+        <div class="unit-container">
+          <p class="unit-type">Volume (Liters/Gallons)</p>
+          <div class="display-unit-container">
+            <p class="metric-unit">
+              <span class="input-num"></span> liter = 
+              <span class="converted-num"></span> gallon
+            </p>
+            <p class="imperial-unit">
+              <span class="input-num"></span> gallon = 
+              <span class="converted-num"></span> liter
+            </p>
+          </div>
+        </div>
+        <!--single unit container ends-->
+
+        <!--single unit container-->
+        <div class="unit-container">
+          <p class="unit-type">Mass (Kilogram/Pound)</p>
+          <div class="display-unit-container">
+            <p class="metric-unit">
+              <span class="input-num"></span> kg = 
+              <span class="converted-num"></span> pound
+            </p>
+            <p class="imperial-unit">
+              <span class="input-num"></span> pound = 
+              <span class="converted-num"></span> kg
+            </p>
+          </div>
+        </div>
+        <!--single unit container ends-->
+
+
       </div>
     </main>
     <script src="script.js"></script>
