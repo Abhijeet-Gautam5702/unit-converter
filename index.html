@@ -9,13 +9,29 @@
   </head>
   <body>
     <main class="container">
+
+      <!--Top section (containing the display section) -->
       <div class="top-container">
         <h1 id="title"></h1>
-        <div id="display-container"></div>
+        <input id="input-container" type = "tel"></input>
         <button id="convert-btn">CONVERT</button>
       </div>
+
+      <!--bottom section of the unit converter-->
       <div class="bottom-container">
-        <div class="unit-container"></div>
+        <div class="unit-container">
+          <p class="unit-type">Length (Meter/Feet)</p>
+          <div class="display-unit-container">
+            <p class="metric-unit">
+              <span class="input-num">20</span> meter = 
+              <span class="converted-num">45.64</span> feet
+            </p>
+            <p class="imperial-unit">
+              <span class="input-num">20</span> feet = 
+              <span class="converted-num">45.64</span> meter
+            </p>
+          </div>
+        </div>
       </div>
     </main>
     <script src="script.js"></script>

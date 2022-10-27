@@ -15,6 +15,7 @@ main {
   /*     padding:10px; */
   max-width: 500px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -30,7 +31,9 @@ main {
   justify-content: center;
   align-items: center;
 }
-#display-container {
+#input-container {
+  width:25%;
+  text-align: center;
   margin: 40px auto 15px auto;
   border: 2px solid green;
   border-radius: 5px;
@@ -43,4 +46,35 @@ main {
   padding: 7px 10px;
   cursor: pointer;
   border-radius: 5px;
+}
+.bottom-container {
+  padding: 20px;
+  width: 100%;
+  border: 2px solid green;
+  /*   height: 100px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.unit-container {
+  width: 100%;
+  border: 1px solid orange;
+  /*   height: 50px; */
+  padding: 10px;
+}
+.unit-type {
+  text-align: center;
+}
+.display-unit-container {
+  margin-top: 10px;
+/*   border: 2px solid blue; */
+  /*   height:50px; */
+  display: flex;
+  justify-content: center;
+}
+.display-unit-container p {
+/*   padding: 2px; */
+  border: 1px solid red;
+  margin: 0 5px;
 }
